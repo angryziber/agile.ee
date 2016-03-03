@@ -6,16 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Agile Estonia
+email: team@agile.ee
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We are people who love Agile. We want to share experiences and unite like-minded people.
+  For us this is the only natural way to think, work and sometimes to live.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://agile.ee" # the base hostname & protocol for your site
+twitter_username: agileestonia
+github_username:  angryziber
 
 # Build settings
 markdown: kramdown
