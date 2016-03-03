@@ -5,13 +5,21 @@ layout: default
 <div class="home">
 
   <ul class="post-list">
+    {% assign index = 0 %}
     {% for post in site.posts %}
+      {% assign index = index | plus:1 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+
+        {% if index == 1 %}
+        <div class="post-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
